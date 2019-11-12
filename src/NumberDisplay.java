@@ -9,8 +9,18 @@ public class NumberDisplay {
     public int getValue(){
        return value;
     }
-    public void setValue(int newValue){
-        if (newValue < 0
-
+    public void setValue(int newValue) {
+        if (newValue < 0 || newValue > limit) {
+        } else {
+            this.value = newValue;
+        }
     }
+
+    public String getDisplayValue() {
+
+
+        }
+
+
+
 }
